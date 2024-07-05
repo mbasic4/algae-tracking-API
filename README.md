@@ -33,7 +33,7 @@ To setup and run tests:
 
 To Start The App:
 
-`npm run start`
+`npm start`
 
 
 App will be running on:
