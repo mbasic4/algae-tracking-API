@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  algae-tracking-db:
+    image: postgis/postgis
+    container_name: algae_tracking_db
+    restart: always
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: algae_tracking_db
+      POSTGRES_USER: algae_tracker
+      POSTGRES_PASSWORD: algae_tracker
+    ports:
+      - "5433:5432"
+  test-db:
+    image: postgis/postgis
+    container_name: test_db
+    restart: always
+    environment:
+      POSTGRES_DB: test_db
+      POSTGRES_USER: test_user
+      POSTGRES_PASSWORD: test_password
+    ports:
+      - "5434:5432"
+
+volumes:
+  db_data:
+  

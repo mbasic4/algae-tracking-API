@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "algae_tracker",
+    "password": "algae_tracker",
+    "database": "algae_tracking_db",
+    "host": "127.0.0.1",
+    "port": "5433",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "test_user",
+    "password": "test_password",
+    "database": "test_db",
+    "host": "127.0.0.1",
+    "port": "5434",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "algae_tracker",
+    "password": "algae_tracker",
+    "database": "algae_tracking_db",
+    "host": "127.0.0.1",
+    "port": "5433",
+    "dialect": "postgresql"
+  }
+}

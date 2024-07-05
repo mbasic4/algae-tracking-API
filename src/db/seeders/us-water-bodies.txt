@@ -1,0 +1,30 @@
+========================================================================
+ US Water Bodies
+------------------------------------------------------------------------
+ https://koordinates.com/layer/25553-us-water-bodies/
+========================================================================
+From: US Federal Emergency Management Agency (FEMA)
+
+Description:
+  This layer is sourced from
+  [hazards.fema.gov](http://hazards.fema.gov/gis/nfhl/rest/services/MPP/MPP_GIS/MapServer?f=json).
+
+Region: North America
+
+CRS: WGS 84
+
+------------------------------------------------------------------------
+ Processing steps applied by Koordinates
+------------------------------------------------------------------------
+
+- imported to Koordinates in Esri JSON format on 16 Sep 2016
+- reprojected from WGS 84 / Pseudo-Mercator to WGS 84
+- clipped to (71.322°N 167.703°W)-(17.931°N 65.603°W)
+- converted by Koordinates to Shapefile on 01 Jul 2024 (reference #3535871)
+
+====================
+No license specified
+====================
+
+No license was specified for this layer. This could mean default rights under copyright law for your legal jurisdiction may apply. Please check with Koordinates if you're unsure of your right to access and use this layer.
+
