@@ -15,8 +15,6 @@ export function importWaterBodiesData() {
     "../db/seeders/us-water-bodies.shp"
   );
 
-  console.log(fullPath)
-
   execSync(
     `shp2pgsql -a -s 4326 ${fullPath} bodies_of_water | PGPASSWORD=${DB_PASSWORD} psql -d ${DB_NAME} -h localhost -p ${DB_PORT} -U ${DB_USER} `,
     { stdio: 'ignore' }

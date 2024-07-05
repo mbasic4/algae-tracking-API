@@ -8,26 +8,6 @@ export const bodiesOfWaterController = express.Router()
 
 bodiesOfWaterController.get('/bodies-of-water', validateToken, async (req, res) => {
   try {
-    /* const Point = sequelize.literal(`ST_GeomFromText('POINT(${req.query.lon} ${req.query.lat})', 4326)`);
-
-    const data = await BodyOfWater.findAll({
-      attributes: [
-        "id",
-        "name",
-        "geom",
-        [sequelize.fn('ST_Distance', sequelize.col('geom'), Point), 'distance']
-      ],
-      //@ts-ignore
-      include: req.user.scope === "citizen-scientist" && req.query.includeRequests
-        ? [{
-            model: ObservationRequest,
-            as: "observationRequests",
-            include: [Location]
-          }]
-        : [],
-      order: sequelize.literal('distance ASC'),
-      limit: 20
-    }) */
     // we're sending these programmatically so we epxect string type
     const lat = req.query.lat as string | undefined
     const lon = req.query.lon as string | undefined
