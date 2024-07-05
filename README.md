@@ -49,3 +49,5 @@ App will be running on:
 ## Project Screen Shot(s)   
 
 <img width="1728" alt="Screenshot 2024-07-05 at 20 24 25" src="https://github.com/mbasic4/algae-tracking-API/assets/20629097/7acd2816-aa43-4a7c-83a5-552e3435e4fa">
+
+<img width="1713" alt="Screenshot 2024-07-05 at 21 08 08" src="https://github.com/mbasic4/algae-tracking-client/assets/20629097/7cf16c5e-48d1-4eb1-8d94-f1a80a773789">
