@@ -1,25 +1,44 @@
-## Algae Tracking Client App
+## Algae Tracking API
 
 #### Objective:
 
-An application used to monitor, observe and report algae pollution in water bodies accross USA, responsive web app built with React, Typescript and CSS.
+An application used to monitor, observe and report algae pollution in water bodies accross USA, API built with Node, Typescript and Express framework.
 
 
 ## Installation and Setup Instructions  
 
-Clone down this repository. You will need `npm` installed globally on your machine. You also need to have algae-tracking-API running. Instructions can be found here https://github.com/mbasic4/algae-tracking-API/blob/main/README.md
+Clone down this repository. You will need `node`, `npm`, `shp2pgsql` and `psql` installed globally on your machine. Instructions to start the client can be found here https://github.com/mbasic4/algae-tracking-client/blob/main/README.md
 
 Installation:
 
-`npm install`   
+`npm install`
+
+
+To setup databases:
+
+`docker-compose up`
+
+
+To setup data:
+
+`npm run migrate`
+
+`npm run import-data`
+
+
+To setup and run tests:
+
+`npm run test`
+
 
 To Start The App:
 
-`npm run dev`  
+`npm run start`
 
-To Visit App:
 
-`http://localhost:3000`  
+App will be running on:
+
+`http://localhost:8080`  
 
 
 ## Project Screen Shot(s)   
