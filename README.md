@@ -12,7 +12,7 @@ An application used to monitor, observe and report algae pollution in water bodi
 
 ## Installation and Setup Instructions  
 
-Clone down this repository. You will need `node`, `npm`, `shp2pgsql` and `psql` installed globally on your machine. Instructions to start the client can be found here https://github.com/mbasic4/algae-tracking-client/blob/main/README.md
+Clone down this repository. You will need `node` and `npm` installed globally on your machine. Instructions to start the client can be found here https://github.com/mbasic4/algae-tracking-client/blob/main/README.md
 
 Installation:
 
@@ -27,8 +27,6 @@ To setup databases:
 To setup data:
 
 `npm run migrate`
-
-`npm run import-data`
 
 
 To setup and run tests:

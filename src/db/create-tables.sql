@@ -1,5 +1,3 @@
---CREATE EXTENSION postgis;
-
 CREATE TABLE "users" (
   "id" SERIAL PRIMARY KEY,
   "first_name" VARCHAR(256) NOT NULL,
