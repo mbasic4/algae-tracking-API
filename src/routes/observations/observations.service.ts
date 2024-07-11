@@ -57,7 +57,7 @@ async function createObservation(
         throw new NotAllowedError("User is not allowed to perform this action")
       }
 
-      if (!Object.values(WaterColorEnum).includes(waterColor)) {
+      if (waterColor && !Object.values(WaterColorEnum).includes(waterColor)) {
         throw Error("Invalid water color")
       }
 
